@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <script src="https://kit.fontawesome.com/38f8e76893.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotifyLogo.png" alt="Spotify"></li>
+            <p>Spotify</p>
+            <li class="home">Home</li>
+            <li class="about">About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Kesariya(Bramhastra).mp3</span>
+                    <span class="songlistplay"><span class="timeStamp">4:28 <i class="fa songItemPlay fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="2">
+                    <span class="songName">Deva Deva(Bramhastra).mp3</span>
+                    <span class="songlistplay"><span class="timeStamp">4:39 <i class="fa songItemPlay fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="3">
+                    <span class="songName">Maiya Mainu(Jersey).mp3</span>
+                    <span class="songlistplay"><span class="timeStamp">3:51 <i class="fa songItemPlay fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="4">
+                    <span class="songName">Malang(Malang).mp3</span>
+                    <span class="songlistplay"><span class="timeStamp">4:47 <i class="fa songItemPlay fa-1x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="5">
+                    <span class="songName">Safar(Jab Harry Met Sejal).mp3</span>
+                    <span class="songlistplay"><span class="timeStamp">6:05 <i class="fa songItemPlay fa-1x fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner">
+        
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa fa-2x fa-backward-step"></i>
+            <i class="fa fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa fa-2x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            Kesariya(Bramhastra).mp3
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
